@@ -1,0 +1,40 @@
+{
+  "source": "github-api",
+  "retrievedAt": "2026-06-19T06:14:57.452Z",
+  "organization": {
+    "login": "Algovate",
+    "name": "Algovate",
+    "description": "Intelligence in Motion",
+    "htmlUrl": "https://github.com/Algovate",
+    "publicRepos": 55,
+    "originalRepos": 44,
+    "totalStars": 99,
+    "latestUpdate": "2026-06-19T02:17:08Z"
+  },
+  "projects": [
+    {
+      "name": "xhs-mcp",
+      "description": "MCP server and CLI for social platform publishing, search, recommendations, and workflow automation.",
+      "category": "Agent infrastructure",
+      "language": "TypeScript",
+      "stars": 52,
+      "url": "https://github.com/Algovate/xhs-mcp"
+    },
+    {
+      "name": "Zephyr",
+      "description": "A multimodal AI generation gateway designed to unify creative model workflows.",
+      "category": "AI gateway",
+      "language": "Python",
+      "stars": 0,
+      "url": "https://github.com/Algovate/Zephyr"
+    },
+    {
+      "name": "Quanta",
+      "description": "An AI-powered quantitative system for real-time market analysis and decision support.",
+      "category": "Market intelligence",
+      "language": "TypeScript",
+      "stars": 0,
+      "url": "https://github.com/Algovate/Quanta"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "algovate-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data:refresh": "node scripts/fetch-github-data.mjs",
+    "dev": "npm run data:refresh && vite",
+    "test": "node --test",
+    "build": "npm run data:refresh && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

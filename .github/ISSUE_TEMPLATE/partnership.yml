@@ -1,0 +1,47 @@
+name: Start a conversation
+description: Share a partnership, product, or venture idea with Algovate.
+title: "[Conversation] "
+labels:
+  - partnership
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. GitHub issues are public—do not include confidential information, credentials, or private customer data.
+  - type: input
+    id: name
+    attributes:
+      label: Your name
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+      description: Company, fund, community, or project.
+  - type: input
+    id: email
+    attributes:
+      label: Contact email
+      description: Only provide an email address you are comfortable posting publicly.
+    validations:
+      required: true
+  - type: dropdown
+    id: collaboration
+    attributes:
+      label: Conversation type
+      options:
+        - Strategic partnership
+        - Product collaboration
+        - Venture or investment
+        - Join the team
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you exploring, and why might Algovate be a fit?
+    validations:
+      required: true
