@@ -24,13 +24,21 @@ data. If GitHub is unavailable or rate-limited, the build uses
 
 ## Content
 
-- Editorial copy and CTA URLs: `src/content.js`
+- Page structure and editorial copy: `index.html`
+- CTA URLs: `src/content.js`
 - Verified GitHub fallback: `src/data/github.fallback.json`
 - Generated GitHub data: `src/data/github.generated.json`
 - Brand asset: `public/algovate-avatar.png`
+- Self-hosted type: `public/fonts/switzer-*.woff2`
 
 The “Start a conversation” CTA opens the repository's public partnership issue
 form. Visitors are warned not to submit confidential information.
+
+## Typography
+
+The site uses Switzer by the Indian Type Foundry, self-hosted from Fontshare
+under the [ITF Free Font License](https://www.fontshare.com/licenses/itf-ffl).
+The original source is [fontshare.com/fonts/switzer](https://www.fontshare.com/fonts/switzer).
 
 ## Deployment
 

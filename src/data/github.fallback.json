@@ -1,15 +1,15 @@
 {
   "source": "fallback",
-  "retrievedAt": "2026-06-19T06:00:00.000Z",
+  "retrievedAt": "2026-11-10T03:34:35.832Z",
   "organization": {
     "login": "Algovate",
     "name": "Algovate",
     "description": "Intelligence in Motion",
     "htmlUrl": "https://github.com/Algovate",
-    "publicRepos": 55,
-    "originalRepos": 44,
-    "totalStars": 99,
-    "latestUpdate": "2026-06-18T00:00:00.000Z"
+    "publicRepos": 54,
+    "originalRepos": 52,
+    "totalStars": 119,
+    "latestUpdate": "2026-11-10T01:49:27Z"
   },
   "projects": [
     {
@@ -17,7 +17,7 @@
       "description": "MCP server and CLI for social platform publishing, search, recommendations, and workflow automation.",
       "category": "Agent infrastructure",
       "language": "TypeScript",
-      "stars": 52,
+      "stars": 58,
       "url": "https://github.com/Algovate/xhs-mcp"
     },
     {
