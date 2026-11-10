@@ -5,29 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Algovate builds open AI tools, intelligent systems, and new ventures at the edge of what is newly possible."
+      content="Algovate is an independent AI studio turning emerging capability into open tools, working systems, and durable ventures."
     />
-    <meta name="theme-color" content="#070908" />
+    <meta name="theme-color" content="#f5f6f4" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Algovate — Intelligence in Motion" />
+    <meta property="og:title" content="Algovate | Intelligence in Motion" />
     <meta
       property="og:description"
-      content="Open tools, intelligent systems, and new ventures built in public."
+      content="Open tools, working systems, and durable ventures built from emerging AI capability."
     />
     <meta property="og:url" content="https://algovate.github.io/" />
     <meta
       property="og:image"
       content="https://algovate.github.io/algovate-avatar.png"
     />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Algovate | Intelligence in Motion" />
+    <meta
+      name="twitter:description"
+      content="Open tools, working systems, and durable ventures built from emerging AI capability."
+    />
+    <meta
+      name="twitter:image"
+      content="https://algovate.github.io/algovate-avatar.png"
+    />
     <link rel="canonical" href="https://algovate.github.io/" />
     <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      href="/fonts/switzer-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
     />
-    <title>Algovate — Intelligence in Motion</title>
+    <link
+      rel="preload"
+      href="/fonts/switzer-500.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <title>Algovate | Intelligence in Motion</title>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -43,333 +61,443 @@
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
-    <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="Algovate home">
-        <img src="/algovate-avatar.png" alt="" width="32" height="32" />
-        <span>ALGOVATE</span>
-      </a>
-      <button
-        class="menu-toggle"
-        type="button"
-        aria-expanded="false"
-        aria-controls="site-nav"
-        data-menu-toggle
-      >
-        <span>Menu</span>
-        <span class="menu-icon" aria-hidden="true"></span>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-nav>
-        <a href="#projects">Projects</a>
-        <a href="#capabilities">Capabilities</a>
-        <a href="#thesis">Thesis</a>
-        <a class="nav-cta" data-contact-link href="#">Start a conversation</a>
-      </nav>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Algovate home">
+          <img src="/algovate-avatar.png" alt="" width="30" height="30" />
+          <span>Algovate</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-menu-toggle
+        >
+          Menu
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-nav>
+          <a href="#work">Work</a>
+          <a href="#practice">Practice</a>
+          <a href="#thesis">Thesis</a>
+          <span class="nav-rule" aria-hidden="true"></span>
+          <a
+            class="nav-github"
+            data-github-link
+            href="https://github.com/Algovate/"
+          >
+            GitHub <span aria-hidden="true">&#8599;</span>
+          </a>
+          <a
+            class="button button--small"
+            data-contact-link
+            href="https://github.com/Algovate/algovate.github.io/issues/new?template=partnership.yml"
+          >
+            Start a conversation
+          </a>
+          <div class="nav-foot">
+            <p>Intelligence in Motion</p>
+            <p>Independent AI studio, United States</p>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <main id="main">
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-grid" aria-hidden="true"></div>
-        <div class="signal-stage" aria-hidden="true" data-signal-stage>
-          <div class="signal-orbit signal-orbit--outer"></div>
-          <div class="signal-orbit signal-orbit--inner"></div>
-          <div class="signal-sphere">
-            <span></span><span></span><span></span>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="kicker">
+              <span class="marker" aria-hidden="true"></span>
+              Independent AI studio, United States
+            </p>
+            <h1 id="hero-title">
+              <span class="line"><span>Intelligence,</span></span>
+              <span class="line"><span>put to work.</span></span>
+            </h1>
+            <p class="lede">
+              We turn emerging AI capability into open tools, working systems,
+              and durable ventures.
+            </p>
+            <div class="actions">
+              <a
+                class="button"
+                data-contact-link
+                href="https://github.com/Algovate/algovate.github.io/issues/new?template=partnership.yml"
+              >
+                Start a conversation
+              </a>
+              <a class="button button--quiet" href="#work">See the work</a>
+            </div>
           </div>
-          <div class="signal-pulse"></div>
+
+          <aside class="record" aria-label="Algovate public record on GitHub">
+            <div class="record-head">
+              <span>The open record</span>
+              <span
+                >Refreshed
+                <time data-retrieved-at datetime="2026-11-10"
+                  >Nov 10, 2026</time
+                ></span
+              >
+            </div>
+
+            <div class="record-mark">
+              <img
+                src="/algovate-avatar.png"
+                alt="Algovate logo"
+                width="184"
+                height="184"
+              />
+              <p>Intelligence in Motion</p>
+            </div>
+
+            <dl class="record-stats">
+              <div>
+                <dt>Public repos</dt>
+                <dd data-metric="publicRepos">54</dd>
+              </div>
+              <div>
+                <dt>GitHub stars</dt>
+                <dd data-metric="totalStars">119</dd>
+              </div>
+              <div>
+                <dt>Original builds</dt>
+                <dd data-metric="originalRepos">52</dd>
+              </div>
+            </dl>
+
+            <div class="record-foot">
+              <span>Open since 2025</span>
+              <a data-github-link href="https://github.com/Algovate/">
+                Verify on GitHub <span aria-hidden="true">&#8599;</span>
+              </a>
+            </div>
+          </aside>
         </div>
-        <div class="hero-content">
-          <p class="eyebrow">
-            <span class="status-dot"></span>
-            Intelligence in motion
-          </p>
-          <h1 id="hero-title">
-            We build AI<br />
-            that <em>moves.</em>
-          </h1>
-          <p class="hero-copy">
-            Open tools, intelligent systems, and new ventures built at the edge
-            of what is newly possible.
-          </p>
-          <div class="hero-actions">
-            <a class="button button--primary" data-contact-link href="#">
-              Start a conversation
-              <span aria-hidden="true">↗</span>
-            </a>
+      </section>
+
+      <section class="work section" id="work" aria-labelledby="work-title">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">
+              <span class="marker" aria-hidden="true"></span>Selected work
+            </p>
+            <h2 id="work-title">Systems already in motion.</h2>
+            <p class="section-lede">
+              A sample of the systems we build and maintain in public.
+            </p>
+          </div>
+
+          <div class="work-grid">
             <a
-              class="button button--quiet"
+              class="work-featured"
+              data-project="xhs-mcp"
+              href="https://github.com/Algovate/xhs-mcp"
+            >
+              <div class="work-featured-main">
+                <span class="project-category">Agent infrastructure</span>
+                <h3>xhs-mcp</h3>
+                <p class="project-description">
+                  MCP server and CLI for social platform publishing, search,
+                  recommendations, and workflow automation.
+                </p>
+              </div>
+              <div class="work-featured-aside">
+                <dl class="work-facts">
+                  <div>
+                    <dt>Language</dt>
+                    <dd data-project-language>TypeScript</dd>
+                  </div>
+                  <div>
+                    <dt>GitHub</dt>
+                    <dd data-project-stars>58 stars</dd>
+                  </div>
+                  <div>
+                    <dt>Access</dt>
+                    <dd>Public</dd>
+                  </div>
+                </dl>
+                <span class="text-arrow"
+                  >View repository <span aria-hidden="true">&#8599;</span></span
+                >
+              </div>
+            </a>
+
+            <div class="work-side">
+              <a
+                class="work-row"
+                data-project="Zephyr"
+                href="https://github.com/Algovate/Zephyr"
+              >
+                <span class="project-category">AI gateway</span>
+                <h3>Zephyr</h3>
+                <p class="project-description">
+                  A multimodal AI generation gateway designed to unify creative
+                  model workflows.
+                </p>
+                <div class="work-row-meta">
+                  <span data-project-language>Python</span>
+                  <span data-project-stars>Open source</span>
+                </div>
+              </a>
+
+              <a
+                class="work-row"
+                data-project="Quanta"
+                href="https://github.com/Algovate/Quanta"
+              >
+                <span class="project-category">Market intelligence</span>
+                <h3>Quanta</h3>
+                <p class="project-description">
+                  An AI-powered quantitative system for real-time market
+                  analysis and decision support.
+                </p>
+                <div class="work-row-meta">
+                  <span data-project-language>TypeScript</span>
+                  <span data-project-stars>Open source</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="section-foot">
+            <a
+              class="text-link"
               data-github-link
               href="https://github.com/Algovate/"
             >
-              Explore GitHub
-              <span aria-hidden="true">↗</span>
+              Browse all repositories on GitHub
+              <span aria-hidden="true">&#8599;</span>
             </a>
           </div>
-        </div>
-        <div class="hero-index" aria-hidden="true">
-          <span>ALG / 001</span>
-          <span>37.0902° N / 95.7129° W</span>
-        </div>
-        <a class="scroll-cue" href="#evidence">
-          <span>Scroll to evidence</span>
-          <span aria-hidden="true">↓</span>
-        </a>
-      </section>
-
-      <section class="evidence section" id="evidence" aria-labelledby="evidence-title">
-        <div class="section-heading reveal">
-          <p class="section-number">01 / Proof in public</p>
-          <div>
-            <h2 id="evidence-title">Evidence, not adjectives.</h2>
-            <p>
-              We ship in public. Every number below is drawn from our open
-              GitHub work—not a pitch deck.
-            </p>
-          </div>
-        </div>
-        <div class="metrics reveal" aria-label="GitHub organization metrics">
-          <article class="metric">
-            <strong data-metric="publicRepos">55</strong>
-            <span>Public projects</span>
-          </article>
-          <article class="metric">
-            <strong data-metric="originalRepos">44</strong>
-            <span>Original builds</span>
-          </article>
-          <article class="metric">
-            <strong data-metric="totalStars">99</strong>
-            <span>GitHub stars</span>
-          </article>
-          <article class="metric metric--activity">
-            <strong><span class="live-line"></span>Active</strong>
-            <span data-latest-update>Updated Jun 18, 2026</span>
-          </article>
-        </div>
-        <p class="data-note reveal">
-          GitHub data refreshed <time data-retrieved-at>June 19, 2026</time>.
-          <a data-github-link href="https://github.com/Algovate/">Verify source ↗</a>
-        </p>
-      </section>
-
-      <section class="projects section" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading reveal">
-          <p class="section-number">02 / Selected work</p>
-          <div>
-            <h2 id="projects-title">Systems already in motion.</h2>
-            <p>
-              Selected projects across agent infrastructure, multimodal
-              generation, and market intelligence.
-            </p>
-          </div>
-        </div>
-        <div class="project-list" data-project-list>
-          <a
-            class="project-card reveal"
-            href="https://github.com/Algovate/xhs-mcp"
-            data-project="xhs-mcp"
-          >
-            <div class="project-order">01</div>
-            <div class="project-main">
-              <p class="project-category">Agent infrastructure</p>
-              <h3>xhs-mcp</h3>
-              <p class="project-description">
-                MCP server and CLI for social platform publishing, search,
-                recommendations, and workflow automation.
-              </p>
-            </div>
-            <div class="project-meta">
-              <span>TypeScript</span>
-              <span data-project-stars>52 stars</span>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-          <a
-            class="project-card reveal"
-            href="https://github.com/Algovate/Zephyr"
-            data-project="Zephyr"
-          >
-            <div class="project-order">02</div>
-            <div class="project-main">
-              <p class="project-category">AI gateway</p>
-              <h3>Zephyr</h3>
-              <p class="project-description">
-                A multimodal AI generation gateway designed to unify creative
-                model workflows.
-              </p>
-            </div>
-            <div class="project-meta">
-              <span>Python</span>
-              <span data-project-stars>Open source</span>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-          <a
-            class="project-card reveal"
-            href="https://github.com/Algovate/Quanta"
-            data-project="Quanta"
-          >
-            <div class="project-order">03</div>
-            <div class="project-main">
-              <p class="project-category">Market intelligence</p>
-              <h3>Quanta</h3>
-              <p class="project-description">
-                An AI-powered quantitative system for real-time market analysis
-                and decision support.
-              </p>
-            </div>
-            <div class="project-meta">
-              <span>TypeScript</span>
-              <span data-project-stars>Open source</span>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-        </div>
-        <div class="section-action reveal">
-          <a class="text-link" data-github-link href="https://github.com/Algovate/">
-            View all public work <span aria-hidden="true">↗</span>
-          </a>
         </div>
       </section>
 
       <section
-        class="capabilities section"
-        id="capabilities"
-        aria-labelledby="capabilities-title"
+        class="practice section"
+        id="practice"
+        aria-labelledby="practice-title"
       >
-        <div class="section-heading section-heading--light reveal">
-          <p class="section-number">03 / Capabilities</p>
-          <div>
-            <h2 id="capabilities-title">From signal to system.</h2>
+        <div class="container practice-grid">
+          <div class="practice-intro">
+            <p class="section-label">
+              <span class="marker" aria-hidden="true"></span>Practice
+            </p>
+            <h2 id="practice-title">From signal<br />to system.</h2>
             <p>
               We connect technical exploration to focused products and
               long-term company building.
             </p>
+            <a class="text-link practice-link" href="#thesis"
+              >Read the operating thesis</a
+            >
           </div>
-        </div>
-        <div class="capability-grid">
-          <article class="capability reveal">
-            <span>01</span>
-            <div class="capability-mark" aria-hidden="true">
-              <i></i><i></i><i></i>
-            </div>
-            <h3>AI Infrastructure</h3>
-            <p>
-              MCP systems, agent orchestration, model gateways, and automation
-              built for real operating environments.
-            </p>
-          </article>
-          <article class="capability reveal">
-            <span>02</span>
-            <div class="capability-mark capability-mark--product" aria-hidden="true">
-              <i></i><i></i><i></i>
-            </div>
-            <h3>Intelligent Products</h3>
-            <p>
-              Focused tools that turn emerging capabilities into clear,
-              practical utility for the people using them.
-            </p>
-          </article>
-          <article class="capability reveal">
-            <span>03</span>
-            <div class="capability-mark capability-mark--venture" aria-hidden="true">
-              <i></i><i></i><i></i>
-            </div>
-            <h3>Venture Incubation</h3>
-            <p>
-              Rapid experiments developed into durable products and businesses
-              when genuine momentum appears.
-            </p>
-          </article>
+
+          <div class="practice-list">
+            <article class="practice-item">
+              <h3>AI Infrastructure</h3>
+              <div>
+                <p>
+                  MCP systems, agent orchestration, model gateways, and
+                  automation built for real operating environments.
+                </p>
+                <p class="scope">
+                  MCP servers, agent runtimes, model routing
+                </p>
+              </div>
+            </article>
+
+            <article class="practice-item">
+              <h3>Intelligent Products</h3>
+              <div>
+                <p>
+                  Focused tools that turn emerging capabilities into clear,
+                  practical utility for the people using them.
+                </p>
+                <p class="scope">
+                  Product definition, interface design, applied AI
+                </p>
+              </div>
+            </article>
+
+            <article class="practice-item">
+              <h3>Venture Incubation</h3>
+              <div>
+                <p>
+                  Rapid experiments developed into durable products and
+                  businesses when genuine momentum appears.
+                </p>
+                <p class="scope">
+                  Prototyping, validation, company formation
+                </p>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="thesis section" id="thesis" aria-labelledby="thesis-title">
-        <div class="thesis-intro reveal">
-          <p class="section-number">04 / Our thesis</p>
-          <h2 id="thesis-title">Open source is how<br />we learn in public.</h2>
-          <p>
+      <section class="thesis" id="thesis" aria-labelledby="thesis-title">
+        <div class="container">
+          <p class="section-label">
+            <span class="marker" aria-hidden="true"></span>Thesis
+          </p>
+          <h2 id="thesis-title">
+            Open source is how
+            <br class="wide-break" />we learn in public.
+          </h2>
+          <p class="thesis-lede">
             Useful intelligence does not emerge from isolation. We expose ideas
             to reality early, then let genuine adoption guide where we go deep.
           </p>
+
+          <ol class="thesis-steps">
+            <li>
+              <span class="step-index">01</span>
+              <h3>Build quickly</h3>
+              <p>Turn a new technical signal into something concrete.</p>
+            </li>
+            <li>
+              <span class="step-index">02</span>
+              <h3>Publish openly</h3>
+              <p>Release useful primitives and invite real scrutiny.</p>
+            </li>
+            <li>
+              <span class="step-index">03</span>
+              <h3>Follow adoption</h3>
+              <p>Let usage reveal where durable value is forming.</p>
+            </li>
+            <li>
+              <span class="step-index">04</span>
+              <h3>Invest deeply</h3>
+              <p>Commit to the strongest ideas with long-term intent.</p>
+            </li>
+          </ol>
         </div>
-        <ol class="thesis-steps">
-          <li class="reveal">
-            <span>01</span>
-            <h3>Build quickly</h3>
-            <p>Turn a new technical signal into something concrete.</p>
-          </li>
-          <li class="reveal">
-            <span>02</span>
-            <h3>Publish openly</h3>
-            <p>Release useful primitives and invite real scrutiny.</p>
-          </li>
-          <li class="reveal">
-            <span>03</span>
-            <h3>Follow adoption</h3>
-            <p>Let usage reveal where durable value is forming.</p>
-          </li>
-          <li class="reveal">
-            <span>04</span>
-            <h3>Invest deeply</h3>
-            <p>Commit to the strongest ideas with long-term intent.</p>
-          </li>
-        </ol>
       </section>
 
-      <section class="partnership" id="contact" aria-labelledby="contact-title">
-        <div class="partnership-grid" aria-hidden="true"></div>
-        <div class="partnership-orb" aria-hidden="true"></div>
-        <div class="partnership-content reveal">
-          <p class="section-number">05 / Partnership</p>
-          <h2 id="contact-title">Put intelligence<br />in motion.</h2>
-          <p>
-            For strategic partnerships, ambitious product ideas, and
-            conversations about what comes next.
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <p class="section-label">
+            <span class="marker" aria-hidden="true"></span>Partnership
           </p>
-          <div class="hero-actions">
-            <a class="button button--dark" data-contact-link href="#">
-              Start a conversation
-              <span aria-hidden="true">↗</span>
-            </a>
-            <a
-              class="button button--outline-dark"
-              data-github-link
-              href="https://github.com/Algovate/"
-            >
-              Explore GitHub
-              <span aria-hidden="true">↗</span>
-            </a>
+          <h2 id="contact-title">Put intelligence<br />in motion.</h2>
+
+          <div class="contact-row">
+            <p>
+              For strategic partnerships, ambitious product ideas, and
+              conversations about what comes next.
+            </p>
+            <div class="contact-actions">
+              <div class="actions">
+                <a
+                  class="button"
+                  data-contact-link
+                  href="https://github.com/Algovate/algovate.github.io/issues/new?template=partnership.yml"
+                >
+                  Start a conversation
+                </a>
+                <a
+                  class="button button--quiet"
+                  data-github-link
+                  href="https://github.com/Algovate/"
+                >
+                  Explore GitHub
+                </a>
+              </div>
+              <p class="contact-note">
+                Conversations open as a public GitHub issue. Please do not
+                share confidential information.
+              </p>
+            </div>
           </div>
-          <small>
-            The conversation form is a public GitHub issue. Do not submit
-            confidential information.
-          </small>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="footer-brand">
-        <a class="brand" href="#top">
-          <img src="/algovate-avatar.png" alt="" width="32" height="32" />
-          <span>ALGOVATE</span>
-        </a>
-        <p>Intelligence in Motion</p>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#top" aria-label="Algovate home">
+            <img src="/algovate-avatar.png" alt="" width="28" height="28" />
+            <span>Algovate</span>
+          </a>
+          <p>Intelligence in Motion</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#work">Work</a>
+          <a href="#practice">Practice</a>
+          <a href="#thesis">Thesis</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="footer-links">
+          <a data-github-link href="https://github.com/Algovate/">GitHub</a>
+          <a
+            data-contact-link
+            href="https://github.com/Algovate/algovate.github.io/issues/new?template=partnership.yml"
+          >
+            Start a conversation
+          </a>
+        </div>
       </div>
-      <div class="footer-links">
-        <a data-github-link href="https://github.com/Algovate/">GitHub ↗</a>
-        <a data-contact-link href="#">Start a conversation ↗</a>
+
+      <div class="container footer-base">
+        <p>© <span data-year>2026</span> Algovate</p>
+        <p>Independent AI studio, United States</p>
       </div>
-      <p class="copyright">© <span data-year>2026</span> Algovate</p>
     </footer>
 
     <noscript>
       <style>
-        .reveal {
-          opacity: 1 !important;
-          transform: none !important;
+        @media (max-width: 860px) {
+          body {
+            padding-top: 0;
+          }
+          .site-header {
+            position: sticky;
+          }
+          .header-inner {
+            flex-wrap: wrap;
+            height: auto;
+            gap: 10px 20px;
+            padding-block: 12px;
+          }
+          .site-nav {
+            position: static;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 6px 20px;
+            width: 100%;
+            padding: 4px 0 0;
+            border: 0;
+            background: transparent;
+          }
+          .site-nav > a:not(.button) {
+            padding: 4px 0;
+            border: 0;
+            font-size: 14px;
+          }
+          .site-nav .button {
+            width: auto;
+            min-height: 38px;
+            margin: 0;
+            font-size: 13px;
+          }
+          .menu-toggle {
+            display: none;
+          }
+          .nav-foot {
+            display: none;
+          }
         }
       </style>
     </noscript>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
